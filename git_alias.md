@@ -8,7 +8,7 @@ git config --global -e
   # %USERPROFILE% or %HOME% location
   excludesfile = ~/gitignore_global.txt
 	editor = notepad2
-  # If not in PATH, use absolut path :
+  # If not in PATH, use absolute path :
   #editor = 'c:\\Program Files\\Notepad2\\Notepad2.exe'
 [merge]
 	tool = p4merge
