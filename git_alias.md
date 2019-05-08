@@ -6,7 +6,7 @@ git config --global -e
 ``` gitconfig
 [core]
   # %USERPROFILE% or %HOME% location
-  excludesfile = ~/gitignore_global.txt
+  excludesfile = ~/gitignore_global
 	editor = notepad2
   # If not in PATH, use absolute path :
   #editor = 'c:\\Program Files\\Notepad2\\Notepad2.exe'
