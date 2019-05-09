@@ -1,6 +1,18 @@
+#-----------------------------------# 
+#          GLOBAL GITIGNORE         # 
+#-----------------------------------# 
+ 
+#-----------------------------# 
+#           ~Custom~          # 
+#-----------------------------# 
+._.DS_Store 
+ 
+#-----------------------------# 
+#     ~Operating Systems~    -# 
+#-----------------------------# 
 
-# Created by https://www.gitignore.io/api/linux,macos,windows
-# Edit at https://www.gitignore.io/?templates=linux,macos,windows
+# Created by https://www.gitignore.io/api/linux,windows,macos
+# Edit at https://www.gitignore.io/?templates=linux,windows,macos
 
 ### Linux ###
 *~
@@ -20,7 +32,6 @@
 ### macOS ###
 # General
 .DS_Store
-._.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -71,15 +82,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/linux,macos,windows
+# End of https://www.gitignore.io/api/linux,windows,macos
+ 
+#-----------------------------# 
+#- ~Programmation languages~ -#  
+#-----------------------------# 
 
-
-# Created by https://www.gitignore.io/api/code,eclipse,intellij
-# Edit at https://www.gitignore.io/?templates=code,eclipse,intellij
-
-
-# Created by https://www.gitignore.io/api/node,java,maven
-# Edit at https://www.gitignore.io/?templates=node,java,maven
+# Created by https://www.gitignore.io/api/java,node,maven
+# Edit at https://www.gitignore.io/?templates=java,node,maven
 
 ### Java ###
 # Compiled class file
@@ -203,7 +213,14 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# End of https://www.gitignore.io/api/node,java,maven
+# End of https://www.gitignore.io/api/java,node,maven
+ 
+#-----------------------------# 
+#-   ~Code editors and IDE~  -# 
+#-----------------------------# 
+
+# Created by https://www.gitignore.io/api/code,eclipse,intellij
+# Edit at https://www.gitignore.io/?templates=code,eclipse,intellij
 
 ### Code ###
 .vscode/*
@@ -364,3 +381,4 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/code,eclipse,intellij
+ 
