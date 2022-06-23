@@ -14,6 +14,14 @@ git config --global -e
   tool = p4merge
 [push]
   default = current
+[pull]
+  rebase = true
+[fetch]
+  prune = false
+[rebase]
+  autoStash = true
+[stash]
+  showIncludeUntracked = true
 [alias]
   a = add
   ap = add -p
@@ -26,9 +34,10 @@ git config --global -e
   cimend = commit --amend
   cimen = commit --amend --no-edit
   lg = log --decorate --graph --date-order
+  lgo = log --decorate --graph --date-order --pretty=format:"%h%x09%an%x09%ad%x09%s" --date=short
   d = diff
   dc = diff --cached
-  st = status
+  st = status -u
   rem = rebase master
   red = rebase develop
   prem = pull --rebase origin master
